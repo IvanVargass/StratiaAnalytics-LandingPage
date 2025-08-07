@@ -1,0 +1,1152 @@
+/* Tipografía principal */
+body {
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #FFFFFF;
+}
+
+.nosotros img{
+      padding-top: 5rem;
+}
+
+#inicio{
+     background-color: #041432;
+     padding-top: 3rem;
+     padding-bottom: 8.5rem;
+}
+
+#inicio h1{
+  font-size: 2.2rem;
+  margin-bottom: 2.2rem;
+}
+
+#inicio p{
+  font-size: 1rem;
+  margin-bottom: 2.2rem;
+}
+
+/* Encabezados */
+h1, h2, h5 {
+  color: #00A3B1;
+}
+
+/* Colores personalizados */
+.text-primary {
+  color: #00A3B1 !important;
+}
+.text-info {
+  color: #28A8BE !important;
+}
+
+/* Iconos */
+.icon {
+  filter: brightness(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #041432;
+}
+
+/* Botón principal de contacto */
+.btn-contacto {
+  background-color: #00B4BF;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contacto:hover {
+  background-color: #09d1db;
+  color: #fff;
+}
+
+.navbar{
+  padding: 1.8rem 0;
+} 
+
+.navbar img{
+  width: 110px;
+}
+
+.navbar .nav-item{
+  font-size: 0.95rem;
+}
+
+.navbar .nombre-logo{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Navbar personalizado */
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 600; /* Semi-bold para Montserrat */
+  transition: color 0.3s ease;
+  border-radius: 30px;
+  padding: 6px 16px;
+}
+
+/* Opción activa resaltada en azul */
+.navbar-nav .nav-link.active {
+  background-color: #28A8BE;
+  color: #fff !important;
+  padding: 0.2rem 1.2rem;
+}
+
+.tarjetas-flotantes{
+  margin-top: -70px;
+  z-index: 2;
+}
+
+.titulo-principal {
+  font-size: 1rem; /* Puedes ajustar el tamaño */
+  color: #00A3B1;
+  font-weight: 700;
+}
+
+.img-hero {
+  max-width: 50%; /* Puedes ajustar a 80%, 75%, etc. */
+  height: auto;
+}
+
+.tarjeta-dato {
+  background-color: #28A8BE;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.tarjeta-dato h5 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+  font-size: 1.05rem;
+}
+
+.tarjeta-dato p {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .tarjetas-flotantes {
+    margin-top: 20px !important;
+  }
+}
+
+.icono-tarjeta {
+  width: 64px;
+  height: auto;
+}
+
+.tarjeta-dato .eficiencia{
+    width: 75px;
+}
+
+.tarjeta-dato .cliente{
+    width: 75px;
+}
+
+.tarjeta-dato .confianza{
+    width: 85px;
+}
+
+.nosotros{
+  padding: 6rem 0;
+}
+
+.nosotros p{
+  color: #041432;
+  font-size: 1rem;
+}
+
+.nosotros h2{
+  color: #fff;
+}
+
+.nosotros img{
+  max-width: 80%;
+}
+
+.texto-nosotros{
+  margin-top: 1.5rem;
+}
+
+.tarjetas-flotantes .row{
+      padding: 0 2.5rem;
+}
+
+.ribbon-title {
+  background-color: #041432; /* Azul oscuro */
+  color: white;
+  position: relative;
+  display: inline-block;
+  width: 32vw; /* Mitad del viewport */
+  text-align: center;
+  padding: 0.65rem 0;
+  height: 50px !important;
+}
+
+.ribbon-title::after {
+  content: "";
+  position: absolute;
+  background-color: #041432;
+  top: 0;
+  right: -23px; /* Tamaño del corte */
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #FFF; /* Mismo color que el fondo */
+  transform: rotate(180deg); /* Gira para hacer el recorte hacia adentro */
+  height: 50px !important;
+}
+
+.ribbon-title h2 {
+  font-size: 1.5rem;
+  font-weight:bold;
+  margin: 0;
+  color: white;
+}
+
+.industrias {
+    position: relative;
+    background-color: #041432;
+    padding: 6rem 0 8rem 0;
+}
+
+.industrias h2 {
+    color: #fff;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    font-style: italic;
+    padding-bottom: 1.3rem;
+}
+
+.industrias .lead{
+  padding-top: 1.2rem;
+  font-size: 1rem;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #00B4BF; /* Color de Bootstrap primary */
+}
+
+.industria-card {
+    max-width: 350px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 20rem;
+}
+
+.industrias .industria-card p {
+  font-size: 0.9rem;
+}
+
+.industrias .restaurantes{
+  padding-bottom: 1rem;
+}
+
+.industria-card:hover {
+    transform: translateY(-5px);
+}
+
+.industria-card .badge {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+/* Ajustes para el carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #0a2463; /* Azul oscuro permanente */
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1; /* Siempre visibles */
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(1); /* Fuerza icono blanco */
+    width: 24px;
+    height: 24px;
+}
+
+/* Efecto hover (opcional) */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #1a3a8f; /* Azul más claro al hover */
+}
+
+/* Estilos para las imágenes de las cards */
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Barra divisora azul */
+.divider-line {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #5bc0eb; /* Azul claro */
+    margin: 12px auto;
+    position: relative;
+}
+
+/* Ajustes para el título con la barra */
+.card-title.position-relative {
+    padding-bottom: 15px;
+}
+
+/* Ajustes generales de la card */
+.industria-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden; /* Para que las esquinas redondeadas apliquen a la imagen */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.industria-card:hover {
+    transform: translateY(-5px);
+}
+
+.industria-card img{
+  margin: 0;
+  padding: 0;
+}
+
+.industria-card button{
+  background-color: #00B4BF;
+  color: #fff;
+  border: 0;
+  border-radius: 35px;
+  padding: 0.3rem 1.7rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.industria-card button:hover{
+  background-color: #09d1db;
+}
+
+.industria-card .card-body{
+  margin-top: 1rem;
+}
+
+.industria-card .card-body .divider-line{
+  margin-top: 1.3rem;
+}
+
+.industria-card .card-title{
+  font-weight: bold;
+  color: #041432;
+  font-size: 1.3rem;
+}
+
+.industria-card .card-text{
+  font-size: 1rem;
+  padding: 0 0.2rem;
+} 
+
+/* Ajustes para el carrusel múltiple */
+.carousel-inner {
+    padding: 1em;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #0a2463;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(1);
+}
+
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #1da4b4;
+  max-width: 1920px;     /* ✅ Límite máximo */
+  margin: 0 auto;         /* ✅ Centrar en la pantalla */
+}
+
+.contact-section h2{
+  font-size: 2.1rem;
+}
+
+.contact-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-form-wrapper {
+  flex: 1;
+  padding: 3.5rem 2rem 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form-content {
+  max-width: 600px;
+  width: 100%;
+  color: white;
+}
+
+.contact-form-content .form-control {
+  border-radius: 1rem;
+  border: none;
+}
+
+textarea.form-control {
+  resize: none;
+  min-height: 150px;
+}
+
+.btn-dark {
+  background-color: #03152f;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-image {
+    height: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Ajustes responsive */
+@media (max-width: 768px) {
+    .carousel-inner .d-flex {
+        display: block !important;
+    }
+    
+    .card {
+        margin: 0 auto 1em;
+        width: 100% !important;
+    }
+}
+
+
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #28A8BE;
+    }
+
+    .contact-image {
+      background-image: url('../assets/images/Contactanos.png');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+    }
+
+    .form-control, .form-check-input {
+      border-radius: 20px;
+    }
+
+    .form-check-label {
+      font-size: 12px;
+    }
+
+    .contact-section form input{
+      margin-bottom: 2.8rem;
+    }
+
+    .contact-section .form-check{
+      margin: 2.2rem 0;
+    }
+
+    .footer {
+      padding: 80px 20px 60px 20px;
+    }
+
+    .footer .footer-logo img{
+      width: 100px;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      margin: 0px 0px 40px 0px !important;
+    }
+
+    .footer-logo img {
+      width: 40px;
+      margin-right: 10px;
+    }
+
+    .footer-logo h5 {
+      margin-top: 9px !important;
+      color: #fff;
+      margin: 0;
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-weight: bold;
+      margin: 10px 0 0 0;
+    }
+
+    .footer-der p{
+      margin: 47px 0 0 0;
+      padding-left: 5.2rem;
+    }
+
+    .footer-der .footer-social{
+      margin-top: 1.5rem;
+      padding-left: 5.2rem;
+    }
+
+    .footer-der .footer-social a{
+      padding-right: 1rem;
+    }
+
+    .footer-cta {
+      background-color: #00A3B1;
+      color: white;
+      border-radius: 20px;
+      padding: 6px 20px;
+      font-weight: bold;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .footer .footer-izq > * p button{
+      margin: 20px 0;
+    }
+
+    .footer-social i {
+      font-size: 1.5rem;
+      margin-right: 15px;
+    }
+
+    .footer-bottom {
+      background-color: #000;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #CCCCCC;
+      padding: 10px 0;
+    }
+
+    .footer-izq p{
+    padding-right: 2rem; 
+    margin-bottom: 2.2rem;
+  }
+
+/* ======= Media Queries Responsivas ======= */
+
+@media (max-width: 1750px) {
+  .ribbon-title {
+        width: 38vw;
+  }
+}
+
+@media (max-width: 1550px) {
+  .ribbon-title {
+        width: 42vw;
+  }
+}
+
+@media (max-width: 1450px) {
+  .footer-nav{ justify-content: start !important;}
+  .navbar{ padding: 1.7rem 0; }
+  #inicio h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  #inicio p {
+    font-size: 0.9rem;
+    margin-bottom: 2.1rem;
+  }
+  .btn-contacto{ font-size: 0.95rem;}
+  #inicio{
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
+  .img-hero{ max-width: 47%; }
+
+  .tarjetas-flotantes .row{ padding: 0 2rem;} 
+  .tarjeta-dato h5{ font-size: 1rem }
+  .tarjeta-dato p{ font-size: 0.8rem; }
+  .tarjeta-dato .eficiencia { width: 58px;}
+  .tarjeta-dato .cliente{ width: 66px }
+  .tarjeta-dato .confianza { width: 70px;}
+
+  .nosotros{ padding: 5rem 0; }
+  .ribbon-title h2{ font-size: 1.4rem; }
+  .nosotros p{ font-size: 0.95rem; padding-right: 0.3rem;}
+  .nosotros img{width: 76%;}
+
+
+  .industrias{ padding: 5rem 0 7rem 0; }
+  .industrias h2{ font-size: 1.4rem }
+  .dot{
+    width: 12px;
+    height: 12px;
+  }
+  .industrias .lead{
+    font-size: 0.95rem;
+  }
+  .industria-card .card-title{ font-size: 1.11rem; }
+  .industrias .industria-card p{ font-size: 0.85rem; }
+  .industria-card button{ font-size: 1rem }
+
+  .contact-section h2{ font-size: 1.9rem;}
+  .contact-form-content .form-control{ font-size: 0.9rem;}
+
+  .footer-nav{
+    justify-content: start;
+    padding-left: 2.2rem;
+  }
+  .footer-izq p{ 
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+  .footer-der p{  
+    padding-left: 2.2rem; 
+  }
+  .footer-der .footer-social{ 
+    padding-left: 2.2rem; 
+  } 
+}
+
+@media (max-width: 1401px) {
+  .tarjetas-flotantes .row{ padding: 0 0.5rem;} 
+}
+
+
+@media (max-width: 1368px) {
+  .navbar .nombre-logo{ font-size: 22px;}
+  .navbar{ padding: 1.7rem 0; }
+  #inicio h1{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  #inicio p {
+    font-size: 0.8rem;
+    margin-bottom: 2.1rem;
+  }
+  .btn-contacto{ font-size: 0.9rem;}
+  #inicio{
+    padding-top: 1.8rem;
+    padding-bottom: 8.5rem;
+  }
+  .img-hero{ max-width: 47%; }
+  
+
+  .tarjetas-flotantes .row{ padding: 0;} 
+  .tarjeta-dato h5{ font-size: 0.95rem }
+  .tarjeta-dato p{ font-size: 0.72rem; }
+  .tarjeta-dato .eficiencia { width: 58px;}
+  .tarjeta-dato .cliente{ width: 68px }
+  .tarjeta-dato .confianza { width: 70px;}
+  .carousel-control-next{ right: -4% }
+  .carousel-control-prev{ left: -4%;}
+
+  .nosotros{ padding: 5rem 0; }
+  .ribbon-title h2{ font-size: 1.25rem; }
+  .nosotros p{ font-size: 0.85rem; padding-right: 0.6rem;}
+  .nosotros img{width: 76%;}
+
+  .ribbon-title {
+        width: 45vw;
+  }
+
+  .industrias{ padding: 4rem 0 6rem 0; }
+  .industrias h2{ font-size: 1.25rem }
+  .dot{
+    width: 10px;
+    height: 10px;
+  }
+  .industrias .lead{
+    font-size: 0.9rem;
+  }
+  .industria-card .card-title{ font-size: 1rem; }
+  .industrias .industria-card p{ font-size: 0.85rem; }
+  .industria-card button{ font-size: 0.95rem }
+
+  .contact-section h2{ font-size: 1.8rem;}
+  .contact-form-content .form-control{ font-size: 0.8rem;}
+  .contact-form-content button{
+    font-size: 0.9rem;
+  }
+  .contact-form-wrapper{
+    padding: 3.5rem 3.3rem 3rem 3.3rem;
+  }
+
+  .footer{
+    padding: 60px 20px 40px 20px;
+  }
+  .footer a{
+    font-size: 0.9rem;
+  }
+  .footer-logo h5{
+    font-size: 1.4rem;
+  }
+  .footer-nav{
+    justify-content: start;
+    padding-left: 2.2rem;
+  }
+  .footer .footer-cta{
+    font-size: 0.9rem;
+  }
+  .footer-izq p{ 
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+  .footer-der p{  
+    font-size: 0.9rem;
+    padding-left: 2.2rem; 
+  }
+  .footer-der .footer-social{ 
+    padding-left: 2.2rem; 
+  } 
+}
+
+@media (max-width: 1200px) {
+  .navbar .nombre-logo{ font-size: 20px;}
+  .navbar .nav-item{ font-size: 0.8rem;} 
+  .navbar{ padding: 1.7rem 0; }
+  #inicio h1{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  #inicio p {
+    font-size: 0.75rem;
+    margin-bottom: 2.1rem;
+  }
+  .btn-contacto{ font-size: 0.8rem;}
+  #inicio{
+    padding-top: 1.6rem;
+    padding-bottom: 8.5rem;
+  }
+  .img-hero{ max-width: 52%; }
+
+  .tarjetas-flotantes .row{ padding: 0;} 
+  .tarjeta-dato h5{ font-size: 0.75rem }
+  .tarjeta-dato p{ font-size: 0.65rem; }
+
+  .tarjeta-dato .eficiencia { width: 53px;}
+  .tarjeta-dato .cliente{ width: 63px }
+  .tarjeta-dato .confianza { width: 65px;}
+  .carousel-control-next{ right: -3% }
+  .carousel-control-prev{ left: -3%;}
+
+  .nosotros{ padding: 5rem 0; }
+  .ribbon-title h2{ font-size: 1.1rem; }
+  .ribbon-title {
+        width: 42vw;
+  }
+  .nosotros p{ font-size: 0.75rem; padding-right: 0.6rem;}
+  .nosotros img{width: 76%;}
+
+  .industrias{ padding: 4rem 0 6rem 0; }
+  .industrias h2{ font-size: 1.1rem }
+  .dot{
+    width: 10px;
+    height: 10px;
+  }
+  .industrias .lead{
+    font-size: 0.8rem;
+  }
+  .industria-card .card-title{ font-size: 0.9rem; }
+  .industrias .industria-card p{ font-size: 0.8rem; }
+  .industria-card button{ font-size: 0.9rem }
+
+  .contact-section h2{ font-size: 1.7rem;}
+  .contact-form-content .form-control{ font-size: 0.75rem;}
+  .form-check-label{ font-size: 11px;}
+  .contact-form-content button{
+    font-size: 0.9rem;
+  }
+    .contact-form-wrapper{
+    padding: 3.5rem 3.8rem 3rem 3.8rem;
+  }
+
+  .footer{
+    padding: 60px 20px 40px 20px;
+  }
+  .footer a{
+    font-size: 0.85rem;
+  }
+  .footer-logo h5{
+    font-size: 1.35rem;
+  }
+  .footer-nav{
+    justify-content: start;
+    padding-left: 2.2rem;
+  }
+  .footer .footer-cta{
+    font-size: 0.8rem;
+  }
+  .footer-izq p{ 
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+  .footer-der p{  
+    font-size: 0.8rem;
+    padding-left: 2.2rem; 
+  }
+  .footer-der .footer-social{ 
+    padding-left: 2.2rem; 
+  } 
+}
+
+@media (max-width: 1100px) {
+  .footer { padding: 50px 15px; }
+}
+
+@media (max-width: 1070px) {
+  .ribbon-title {
+        width: 46vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar img{ width: 100px; }
+  .navbar .nombre-logo{ font-size: 21px;}
+  .navbar .nav-item{ 
+    font-size: 0.8rem; 
+    padding: 0.2rem 0;  
+    text-align: center;
+  } 
+  ul.navbar-nav.text-uppercase {padding-top: 1.3rem;}
+  .navbar{ padding: 1.7rem 0; padding-bottom: 1rem;}
+  #inicio h1{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 1.6rem;
+  }
+  #inicio h1 br{ display: none;}
+  #inicio p {
+    font-size: 0.8rem;
+    margin-bottom: 2.2rem;
+  }
+  .btn-contacto{ font-size: 0.75rem;}
+  #inicio{
+    padding-top: 3.2em;
+    padding-bottom: 9.5rem;
+  }
+  .img-hero{ max-width: 67%; }
+
+  .tarjetas-flotantes .row{ padding: 0;} 
+  .tarjeta-dato h5{ font-size: 0.75rem }
+  .tarjeta-dato p{ font-size: 0.65rem; }
+  .tarjetas-flotantes .card-body{ padding: 0.4rem;}
+
+  .tarjeta-dato .eficiencia { width: 48px;}
+  .tarjeta-dato .cliente{ width: 58px }
+  .tarjeta-dato .confianza { width: 60px;}
+  .carousel-control-next{ right: -3% }
+  .carousel-control-prev{ left: -3%;}
+
+  .nosotros{ padding: 3.8rem 0; }
+  .nosotros img{
+      padding-top: 0;
+  }
+  .ribbon-title h2{ font-size: 1.1rem; }
+  .ribbon-title {
+        width: 98%;
+        height: 46px !important;
+  }
+  .ribbon-title::after{ 
+    height: 42px !important;
+    right: -20px;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 23px solid #FFF;
+  }
+  .nosotros p{ font-size: 0.75rem; padding-right: 0.6rem;}
+  .nosotros img{width: 56%;}
+
+  .industrias{ padding: 4rem 0 6rem 0; }
+  .industrias h2{ font-size: 1rem }
+  .dot{
+    width: 9px;
+    height: 9px;
+  }
+  .industrias .lead{
+    font-size: 0.75rem;
+  }
+  .industria-card .card-title{ font-size: 0.8rem; }
+  .industrias .industria-card p{ font-size: 0.7rem; }
+  .carousel-inner{ padding: 0;}
+  .industria-card button{ font-size: 0.8rem }
+  .divider-line{ width: 40px;}
+
+  .contact-section h2{ font-size: 1.6rem;}
+  .contact-section form input {
+    margin-bottom: 2.5rem;
+  }
+  .contact-form-content .form-control{ font-size: 0.75rem;}
+  .form-check-label{ font-size: 11px;}
+  .contact-form-content button{
+    font-size: 0.85rem;
+  }
+    .contact-form-wrapper{
+    padding: 3.5rem 3.8rem 3rem 3.8rem;
+  }
+
+  .footer{
+    padding: 70px 20px 70px 20px;
+  }
+
+  .footer .footer-logo img {
+    width: 103px;
+  }
+
+  .footer-nav{ 
+    justify-content: center !important;
+    padding-top: 2.5rem;
+  }
+  .footer a{
+    font-size: 0.85rem;
+  }
+  .footer-logo h5{
+    font-size: 1.5rem;
+  }
+  .footer-nav{
+    justify-content: start;
+    padding-left: 0;
+  }
+  .footer .footer-cta{
+    font-size: 0.9rem;
+  }
+  .footer-izq p{ 
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+  .footer-der p{  
+    font-size: 0.8rem;
+    padding-left: 0;
+  }
+  .footer-der .footer-social{ 
+    padding-top: 1rem;
+    padding-left: 0;
+  } 
+}
+
+@media (max-width: 767px) {
+.navbar .nombre-logo{
+  font-size: 20px;
+}
+#inicio h1 {
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+#inicio h1 br{
+  display: block;
+}
+
+#inicio p {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+.img-hero{ 
+  max-width: 51%;
+  margin-top: 3rem;
+}
+#inicio {
+  padding-top: 3em;
+  padding-bottom: 2.8rem;
+}
+
+.tarjetas-flotantes {
+  margin-top: 55px !important;
+}
+
+.nosotros {
+  padding: 3rem 0 4rem 0;
+}
+.nosotros p {
+  font-size: 0.72rem;
+  padding-right: 0;
+  text-align: justify;
+}
+.nosotros img {
+  width: 60%;
+}
+
+.industrias h2{
+  font-size: 0.95rem;
+}
+.industrias .lead {
+  font-size: 0.7rem;
+}
+.industria-card .card-title {
+  font-size: 0.85rem;
+}
+.contact-section h2 {
+  font-size: 1.55rem;
+}
+.contact-section form input {
+  margin-bottom: 1.65rem;
+}
+.contact-form-wrapper {
+  padding: 3.5rem 3.8rem 3.5rem 3.8rem;
+}
+
+.footer-logo h5 {
+  font-size: 1.35rem;
+}
+.footer .footer-logo img {
+  width: 100px;
+}
+.footer-izq p {
+  font-size: 0.75rem;
+}
+.footer .footer-cta {
+  font-size: 0.8rem;
+}
+.footer a {
+  font-size: 0.8rem;
+}
+.footer-der p {
+  font-size: 0.75rem;
+}
+.footer {
+  padding: 60px 20px 65px 20px;
+}
+
+}
+
+@media (max-width: 500px) {
+  h1 { font-size: 1.5rem; }
+  .navbar .nombre-logo { font-size: 16px; }
+  .footer-cta { padding: 6px 15px; font-size: 0.9rem; }
+  .footer-logo img { width: 32px; }
+  .footer-nav{
+    gap: 15px;
+  }
+}
+
+@media (max-width: 440px) {
+ .footer-nav{
+    gap: 10px;
+  }
+      .footer {
+        padding: 60px 10px 65px 10px;
+    }
+}
+
+
+@media (max-width: 388px) {
+ .footer-nav{
+    gap: 7px;
+  }
+  .footer {
+  padding: 60px 5px 65px 5px;
+  }
+  .footer a {
+    font-size: 0.8rem;
+  }
+  .footer span{
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 460px) {
+  .footer-logo h5 { font-size: 1.1rem; }
+  .footer-cta { font-size: 0.85rem; padding: 5px 12px; }
+  .form-check-label { font-size: 11px; }
+}
+
+@media (max-width: 360px) {
+  .footer span{
+    display: none;
+  }
+  .footer-nav{
+    padding-top: 0.8rem;
+  }
+  .footer a{
+    padding: 0.4rem 0;
+  }
+  h1 { font-size: 1.3rem; }
+  .footer-nav { flex-direction: column; align-items: center; gap: 5px; }
+  .footer-social i { font-size: 1.2rem; margin-right: 10px; }
+}
+  
